@@ -1,0 +1,64 @@
+/* ///parent aline */
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.main-containt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+/* //header styling */
+.header{
+    display: flex;
+    place-content: center;
+    background-color: brown;
+    color: #fff;
+}
+/* ///main-content children styling */
+aside{
+    display: flex;
+    flex: 1 1 200px;
+    background-color: brown;
+    place-content: center;
+    color: #fff;
+    height: 77vh;
+}
+.right-side{
+    flex: 1 1 600px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    gap: 5px;
+}
+.right-side .content1{
+    display: flex;
+    place-content: center;
+    background-color: brown;
+    color: #fff;
+    flex: 1 1 0px;
+    height: 30vh;
+    
+}
+.right-side .sibling-content{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 5px;
+}
+.content2,.content3{
+    display: flex;
+    place-content: center;
+    background-color: brown;
+    color: #fff;
+    flex: 1 1 0px;
+    height: 30vh;
+}
+/* ///Footer styling */
+.footer{
+    display: flex;
+    place-content: center;
+    background-color: brown;
+    color: #fff;
+}
