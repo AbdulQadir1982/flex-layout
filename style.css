@@ -36,7 +36,8 @@ aside{
 }
 .right-side .content1{
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     background-color: brown;
     color: #fff;
     flex: 1 1 0px;
