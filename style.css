@@ -21,10 +21,12 @@ aside{
     display: flex;
     flex: 1 1 200px;
     background-color: brown;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     height: 77vh;
 }
+
 .right-side{
     flex: 1 1 600px;
     display: flex;
@@ -49,7 +51,8 @@ aside{
 }
 .content2,.content3{
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     background-color: brown;
     color: #fff;
     flex: 1 1 0px;
